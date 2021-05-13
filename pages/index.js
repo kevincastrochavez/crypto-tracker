@@ -3,6 +3,8 @@ import Head from "next/head";
 import CoinList from "../components/CoinList";
 
 export default function Home({ filteredCoins }) {
+  console.log(filteredCoins);
+
   return (
     <div>
       <Head>
