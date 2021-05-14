@@ -25,6 +25,10 @@ body {
   background-color: #101012;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .coin_app {
   display: flex;
   flex-direction: column;
@@ -43,6 +47,7 @@ body {
   display: flex;
   justify-content: center;
 }
+
 .coin_logo {
   height: 200px;
   width: 200px;
